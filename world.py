@@ -12,7 +12,7 @@ HEAD = """<!DOCTYPE html>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 <meta name="description" content="Free (CC0) Smooth Voxel models in the Webspaces house style. View source to copy any of them." />
-<script src="https://webspaces.space/run/0.10.0-alpha.11/webspace.js"></script>
+<script src="https://webspaces.space/run/0.10.0-alpha.12/webspace.js"></script>
 <meta name="webspace.environment.type" content="terrain" />
 <meta name="webspace.environment.terrain.type" content="flat" />
 <meta name="webspace.environment.wrap" content="off" />
