@@ -1,0 +1,10 @@
+size = 12 4 4
+scale = 0.125
+origin = -y
+material lighting = smooth, roughness = 0.9, deform = 4
+  colors = A:#5a3a24 B:#3f2819 C:#c9955e
+voxels
+------------ CBAAAABAAAAC CABAAAABAAAC ------------
+CABAAAABAAAC CAABAAAABAAC CAAABAAAABAC CAAAABAAAABC
+CAAABAAAABAC CAAAABAAAABC CBAAAABAAAAC CABAAAABAAAC
+------------ CABAAAABAAAC CAABAAAABAAC ------------

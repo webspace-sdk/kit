@@ -1,0 +1,17 @@
+size = 9 13 9
+scale = 0.125
+origin = -y
+material lighting = smooth, roughness = 0.9, deform = 1
+  colors = T:#6b4a34
+material lighting = smooth, roughness = 1, deform = 6
+  colors = L:#6fae5c M:#5c9a4c
+voxels
+--------- --------- --------- --------- --------- --------- --------- ----L---- ---LLL--- ----M---- --------- --------- ---------
+--------- --------- --------- --------- --------- --------- ---LLL--- --MLLLL-- --LLMLL-- --LLLLM-- ---LLL--- --------- ---------
+--------- --------- --------- --------- --------- ---LLL--- --MLLLL-- -LLLMLLL- -LLLLLML- -MLLLLLL- --LMLLL-- ---LLM--- ---------
+---TTT--- ---TTT--- ---TTT--- ---TTT--- ---TTT--- --MLLLL-- -LLLMLLL- -LLLLLML- LMLLLLLLM -LLMLLLL- -LLLLMLL- --LLLLL-- ---------
+---TTT--- ---TTT--- ---TTT--- ---TTT--- ---TTT--- --LLMLL-- -LLLLLML- LMLLLLLLM LLLMLLLLL LLLLLMLLL -LLLLLLM- --MLLLL-- ---------
+---TTT--- ---TTT--- ---TTT--- ---TTT--- ---TTT--- --LLLLM-- -MLLLLLL- -LLMLLLL- LLLLLMLLL -LLLLLLM- -LMLLLLL- --LLMLL-- ---------
+--------- --------- --------- --------- --------- ---LLL--- --LMLLL-- -LLLLMLL- -LLLLLLM- -LMLLLLL- --LLMLL-- ---LLL--- ---------
+--------- --------- --------- --------- --------- --------- ---LLM--- --LLLLL-- --MLLLL-- --LLMLL-- ---LLL--- --------- ---------
+--------- --------- --------- --------- --------- --------- --------- ----L---- ---LML--- ----L---- --------- --------- ---------

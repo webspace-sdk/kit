@@ -1,0 +1,13 @@
+size = 16 6 7
+scale = 0.125
+origin = 
+material lighting = smooth, roughness = 1, deform = 6
+  colors = C:#f7f8fc
+voxels
+---------------- ---------------- ---------------- -------CCC------ ---------------- ----------------
+---------------- ---CCC------C--- ---CCCCCCCCCCC-- ---CCCCCCCC-C--- ------CCCCC----- ----------------
+---------------- --CCCCCCCC-CCC-- --CCCCCCCCCCCCC- --CCCCCCCCCCCC-- ------CCCCC----- -------CCC------
+----C----------- --CCCCCCCCCCCCC- --CCCCCCCCCCCCC- --CCCCCCCCCCCCC- ----C-CCCCC----- -------CCC------
+---------------- --CCCCCCCC-CCC-- --CCCCCCCCCCCCC- --CCCCCCCCCCCC-- ------CCCCC----- -------CCC------
+---------------- ---CCC------C--- ---CCCCCCCCCCC-- ---CCCCCCCC-C--- ------CCCCC----- ----------------
+---------------- ---------------- ---------------- -------CCC------ ---------------- ----------------

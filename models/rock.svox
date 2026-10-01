@@ -1,0 +1,13 @@
+size = 7 4 7
+scale = 0.125
+origin = -y
+material lighting = smooth, roughness = 1, deform = 6
+  colors = R:#8a857c S:#77726a
+voxels
+----R-- ----R-- ------- -------
+--SRR-- --SRR-- ---RR-- -------
+-SRRSRR -SRRSRR -SRRSR- -------
+SRRSRR- SRRSRR- -RRSRR- -------
+-RSRRSR -RSRRSR --SRR-- -------
+-SRRSR- -SRRSR- --R---- -------
+---SR-- ---SR-- ------- -------

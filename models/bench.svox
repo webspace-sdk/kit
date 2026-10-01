@@ -1,0 +1,11 @@
+size = 14 7 3
+scale = 0.125
+origin = -y
+material lighting = smooth, roughness = 0.8, deform = 2
+  colors = W:#a8743f
+material lighting = smooth, roughness = 0.9, deform = 1
+  colors = L:#3a3a40
+voxels
+-L----------L- -L----------L- -L----------L- WWWWWWWWWWWWWW -------------- -------------- --------------
+-------------- -------------- -------------- WWWWWWWWWWWWWW -------------- -------------- --------------
+-L----------L- -L----------L- -L----------L- WWWWWWWWWWWWWW -L----------L- WWWWWWWWWWWWWW WWWWWWWWWWWWWW

@@ -1,0 +1,15 @@
+size = 7 7 7
+scale = 0.125
+origin = -y
+material lighting = smooth, roughness = 0.9, deform = 1
+  colors = W:#efe6d6
+material lighting = smooth, roughness = 0.3, deform = 3
+  colors = R:#d8463b D:#f4efe6
+voxels
+------- ------- ------- ------- --RRD-- ------- -------
+------- ------- ------- ------- -RRDRR- -RDRRR- -------
+--WWW-- --WWW-- --WWW-- --WWW-- RRDRRRD -DRRRD- -------
+--WWW-- --WWW-- --WWW-- --WWW-- RDRRRDR -RRRDR- -------
+--WWW-- --WWW-- --WWW-- --WWW-- DRRRDRR -RRDRR- -------
+------- ------- ------- ------- -RRDRR- -RDRRR- -------
+------- ------- ------- ------- --DRR-- ------- -------

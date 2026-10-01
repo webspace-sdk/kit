@@ -1,0 +1,13 @@
+size = 5 9 5
+scale = 0.125
+origin = -y
+material lighting = smooth, roughness = 0.3, deform = 0
+  colors = F:#2d2a33
+material lighting = smooth, emissive = #ffcf6b 0.9, deform = 2
+  colors = G:#ffcf6b
+voxels
+FFFFF F---F F---F F---F F---F F---F F---F FFFFF -----
+FFFFF -GGG- -GGG- -GGG- -GGG- -GGG- -GGG- FFFFF -----
+FFFFF -GGG- -GGG- -GGG- -GGG- -GGG- -GGG- FFFFF --F--
+FFFFF -GGG- -GGG- -GGG- -GGG- -GGG- -GGG- FFFFF -----
+FFFFF F---F F---F F---F F---F F---F F---F FFFFF -----

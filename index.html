@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>The Kit — Webspaces</title>
+<meta name="description" content="Free (CC0) Smooth Voxel models in the Webspaces house style. Put any of them in your world with one tag." />
+<meta property="og:title" content="The Webspaces Kit" />
+<meta property="og:description" content="Free (CC0) voxel models for your world: one tag each." />
+<meta property="og:image" content="https://webspaces.space/kit/thumbs/tree.png" />
+<link rel="icon" href="https://webspaces.space/assets/favicon.png" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Spectral:ital,wght@0,300;0,400;1,300&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<style>
+  :root { --night: #061139; --ink: #ecebf7; --dim: #9aa0c8; --faint: #3a4474; --ember: #ff8a4c;
+    --display: "Instrument Serif", Georgia, serif; --body: "Spectral", Georgia, serif; --mono: "IBM Plex Mono", ui-monospace, monospace; }
+  * { box-sizing: border-box; }
+  html { background: var(--night); }
+  body { margin: 0; color: var(--ink); font: 300 18px/1.6 var(--body); background: radial-gradient(900px 500px at 85% -10%, #16266e55, transparent 70%), var(--night); }
+  a { color: inherit; }
+  .wrap { max-width: 1180px; margin: 0 auto; padding: 0 clamp(18px, 5vw, 56px); }
+  header { padding: clamp(56px, 9vw, 110px) 0 clamp(28px, 4vw, 44px); }
+  .eyebrow { font: 500 12px/1 var(--mono); letter-spacing: .18em; text-transform: uppercase; color: var(--dim); margin-bottom: 26px; }
+  .eyebrow a { text-decoration: none; border-bottom: 1px solid var(--faint); }
+  h1 { font: 400 clamp(48px, 8vw, 96px)/.95 var(--display); margin: 0 0 22px; }
+  h1 em { color: var(--dim); }
+  .lede { max-width: 62ch; color: var(--dim); margin: 0; }
+  .lede code { font: 400 14px var(--mono); color: #c9cdf0; }
+  .walk { display: inline-block; margin-top: 22px; font: 500 13px var(--mono); letter-spacing: .1em; text-transform: uppercase; text-decoration: none; border-bottom: 1px solid var(--ember); color: #fff; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 22px; padding-bottom: 80px; }
+  .card { background: #0a1646; border: 1px solid #ffffff10; border-radius: 6px; overflow: hidden; display: flex; flex-direction: column; }
+  .card img { width: 100%; aspect-ratio: 1; object-fit: cover; display: block; background: #0b1846; }
+  .meta { display: flex; justify-content: space-between; align-items: baseline; padding: 14px 16px 0; gap: 10px; }
+  .meta h2 { font: 400 30px/1 var(--display); margin: 0; text-transform: capitalize; }
+  .meta span { font: 400 11px var(--mono); color: var(--dim); white-space: nowrap; }
+  .card p { margin: 6px 16px 10px; color: var(--dim); font-size: 16px; }
+  .card pre { margin: 0 16px; font: 400 11px/1.6 var(--mono); color: #d6d9f5; background: #030a26; border: 1px solid #ffffff10; border-radius: 4px; padding: 10px 12px; overflow-x: auto; }
+  .links { display: flex; gap: 14px; align-items: center; padding: 12px 16px 16px; margin-top: auto; font: 500 12px var(--mono); letter-spacing: .06em; text-transform: uppercase; }
+  .links a { text-decoration: none; border-bottom: 1px solid var(--faint); }
+  button { font: 500 12px var(--mono); letter-spacing: .06em; text-transform: uppercase; color: #fff; background: none; border: 1px solid var(--ember); border-radius: 999px; padding: 6px 12px; cursor: pointer; }
+  button.done { border-color: #6fd39a; color: #6fd39a; }
+  footer { border-top: 1px solid #ffffff14; padding: 36px 0 70px; color: var(--dim); font-size: 16px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="eyebrow"><a href="https://webspaces.space">Webspaces</a> &nbsp;/&nbsp; <a href="https://webspaces.space/learn/">Recipes</a> &nbsp;/&nbsp; Kit</div>
+    <h1>The Kit<em>.</em></h1>
+    <p class="lede">Free models for your world, in the house style: soft, cel-shaded Smooth Voxels. Copy a tag into your page and it's there. Each one is a few lines of plain text, so you (or your AI agent) can open it and change the colors or the shape. All CC0.</p>
+    <p class="lede" style="margin-top: 14px">Tags are positioned to stand on <code>flat</code> ground. Models are centered on their transform and every voxel is 12.5&nbsp;cm, so to resize one, change <code>scale3d</code> and raise it by half its new height.</p>
+    <a class="walk" href="world.html">Walk through the kit →</a>
+  </header>
+  <main class="grid">
+    <article class="card">
+      <img src="thumbs/bench.png" alt="bench" loading="lazy" />
+      <div class="meta"><h2>bench</h2><span>1.75 × 0.88 × 0.38 m</span></div>
+      <p>A park bench to sit on.</p>
+      <pre>&lt;model src=&quot;https://webspaces.space/kit/models/bench.svox&quot;
+  style=&quot;transform: translate3d(0cm, 119cm, -300cm)&quot;&gt;&lt;/model&gt;</pre>
+      <div class="links"><button data-copy>Copy tag</button><a href="models/bench.svox">.svox</a></div>
+    </article>
+    <article class="card">
+      <img src="thumbs/bush.png" alt="bush" loading="lazy" />
+      <div class="meta"><h2>bush</h2><span>0.88 × 0.62 × 0.88 m</span></div>
+      <p>A round bush with blossoms.</p>
+      <pre>&lt;model src=&quot;https://webspaces.space/kit/models/bush.svox&quot;
+  style=&quot;transform: translate3d(0cm, 106cm, -300cm)&quot;&gt;&lt;/model&gt;</pre>
+      <div class="links"><button data-copy>Copy tag</button><a href="models/bush.svox">.svox</a></div>
+    </article>
+    <article class="card">
+      <img src="thumbs/cloud.png" alt="cloud" loading="lazy" />
+      <div class="meta"><h2>cloud</h2><span>2.00 × 0.75 × 0.88 m</span></div>
+      <p>A puffy cloud. Scale it up and put it high.</p>
+      <pre>&lt;model src=&quot;https://webspaces.space/kit/models/cloud.svox&quot;
+  style=&quot;transform: translate3d(0cm, 800cm, -300cm) scale3d(4, 4, 4)&quot;&gt;&lt;/model&gt;</pre>
+      <div class="links"><button data-copy>Copy tag</button><a href="models/cloud.svox">.svox</a></div>
+    </article>
+    <article class="card">
+      <img src="thumbs/crate.png" alt="crate" loading="lazy" />
+      <div class="meta"><h2>crate</h2><span>0.75 × 0.75 × 0.75 m</span></div>
+      <p>A wooden crate.</p>
+      <pre>&lt;model src=&quot;https://webspaces.space/kit/models/crate.svox&quot;
+  style=&quot;transform: translate3d(0cm, 112cm, -300cm)&quot;&gt;&lt;/model&gt;</pre>
+      <div class="links"><button data-copy>Copy tag</button><a href="models/crate.svox">.svox</a></div>
+    </article>
+    <article class="card">
+      <img src="thumbs/crystal.png" alt="crystal" loading="lazy" />
+      <div class="meta"><h2>crystal</h2><span>0.88 × 1.38 × 0.88 m</span></div>
+      <p>A cluster of glowing crystals.</p>
+      <pre>&lt;model src=&quot;https://webspaces.space/kit/models/crystal.svox&quot;
+  style=&quot;transform: translate3d(0cm, 144cm, -300cm)&quot;&gt;&lt;/model&gt;</pre>
+      <div class="links"><button data-copy>Copy tag</button><a href="models/crystal.svox">.svox</a></div>
+    </article>
+    <article class="card">
+      <img src="thumbs/flower.png" alt="flower" loading="lazy" />
+      <div class="meta"><h2>flower</h2><span>1.00 × 1.00 × 1.00 m</span></div>
+      <p>A single flower. Scale it down for a meadow.</p>
+      <pre>&lt;model src=&quot;https://webspaces.space/kit/models/flower.svox&quot;
+  style=&quot;transform: translate3d(0cm, 92cm, -300cm) scale3d(0.35, 0.35, 0.35)&quot;&gt;&lt;/model&gt;</pre>
+      <div class="links"><button data-copy>Copy tag</button><a href="models/flower.svox">.svox</a></div>
+    </article>
+    <article class="card">
+      <img src="thumbs/lantern.png" alt="lantern" loading="lazy" />
+      <div class="meta"><h2>lantern</h2><span>0.62 × 1.12 × 0.62 m</span></div>
+      <p>A lantern with a warm glow.</p>
+      <pre>&lt;model src=&quot;https://webspaces.space/kit/models/lantern.svox&quot;
+  style=&quot;transform: translate3d(0cm, 109cm, -300cm) scale3d(0.6, 0.6, 0.6)&quot;&gt;&lt;/model&gt;</pre>
+      <div class="links"><button data-copy>Copy tag</button><a href="models/lantern.svox">.svox</a></div>
+    </article>
+    <article class="card">
+      <img src="thumbs/log.png" alt="log" loading="lazy" />
+      <div class="meta"><h2>log</h2><span>1.50 × 0.50 × 0.50 m</span></div>
+      <p>A log: firewood or a seat.</p>
+      <pre>&lt;model src=&quot;https://webspaces.space/kit/models/log.svox&quot;
+  style=&quot;transform: translate3d(0cm, 100cm, -300cm)&quot;&gt;&lt;/model&gt;</pre>
+      <div class="links"><button data-copy>Copy tag</button><a href="models/log.svox">.svox</a></div>
+    </article>
+    <article class="card">
+      <img src="thumbs/mushroom.png" alt="mushroom" loading="lazy" />
+      <div class="meta"><h2>mushroom</h2><span>0.88 × 0.88 × 0.88 m</span></div>
+      <p>A red-capped mushroom.</p>
+      <pre>&lt;model src=&quot;https://webspaces.space/kit/models/mushroom.svox&quot;
+  style=&quot;transform: translate3d(0cm, 97cm, -300cm) scale3d(0.5, 0.5, 0.5)&quot;&gt;&lt;/model&gt;</pre>
+      <div class="links"><button data-copy>Copy tag</button><a href="models/mushroom.svox">.svox</a></div>
+    </article>
+    <article class="card">
+      <img src="thumbs/pine.png" alt="pine" loading="lazy" />
+      <div class="meta"><h2>pine</h2><span>1.38 × 2.25 × 1.38 m</span></div>
+      <p>A pine tree.</p>
+      <pre>&lt;model src=&quot;https://webspaces.space/kit/models/pine.svox&quot;
+  style=&quot;transform: translate3d(0cm, 255cm, -300cm) scale3d(1.6, 1.6, 1.6)&quot;&gt;&lt;/model&gt;</pre>
+      <div class="links"><button data-copy>Copy tag</button><a href="models/pine.svox">.svox</a></div>
+    </article>
+    <article class="card">
+      <img src="thumbs/rock.png" alt="rock" loading="lazy" />
+      <div class="meta"><h2>rock</h2><span>0.88 × 0.50 × 0.88 m</span></div>
+      <p>A smooth boulder.</p>
+      <pre>&lt;model src=&quot;https://webspaces.space/kit/models/rock.svox&quot;
+  style=&quot;transform: translate3d(0cm, 100cm, -300cm)&quot;&gt;&lt;/model&gt;</pre>
+      <div class="links"><button data-copy>Copy tag</button><a href="models/rock.svox">.svox</a></div>
+    </article>
+    <article class="card">
+      <img src="thumbs/stone.png" alt="stone" loading="lazy" />
+      <div class="meta"><h2>stone</h2><span>0.62 × 0.38 × 0.62 m</span></div>
+      <p>A small fieldstone.</p>
+      <pre>&lt;model src=&quot;https://webspaces.space/kit/models/stone.svox&quot;
+  style=&quot;transform: translate3d(0cm, 94cm, -300cm)&quot;&gt;&lt;/model&gt;</pre>
+      <div class="links"><button data-copy>Copy tag</button><a href="models/stone.svox">.svox</a></div>
+    </article>
+    <article class="card">
+      <img src="thumbs/tree.png" alt="tree" loading="lazy" />
+      <div class="meta"><h2>tree</h2><span>1.12 × 1.62 × 1.12 m</span></div>
+      <p>A round, leafy tree.</p>
+      <pre>&lt;model src=&quot;https://webspaces.space/kit/models/tree.svox&quot;
+  style=&quot;transform: translate3d(0cm, 238cm, -300cm) scale3d(2, 2, 2)&quot;&gt;&lt;/model&gt;</pre>
+      <div class="links"><button data-copy>Copy tag</button><a href="models/tree.svox">.svox</a></div>
+    </article>
+  </main>
+  <footer>Made something good? Models are welcome at <a href="https://github.com/webspace-sdk/kit">github.com/webspace-sdk/kit</a>. They're generated by <code>make.py</code>, or you can add one by hand.</footer>
+</div>
+<script>
+  for (const b of document.querySelectorAll("[data-copy]")) {
+    b.addEventListener("click", async () => {
+      const tag = b.closest(".card").querySelector("pre").textContent;
+      try { await navigator.clipboard.writeText(tag); b.textContent = "Copied"; b.classList.add("done"); } catch { b.textContent = "Select & copy"; }
+      setTimeout(() => { b.textContent = "Copy tag"; b.classList.remove("done"); }, 1600);
+    });
+  }
+</script>
+</body>
+</html>
